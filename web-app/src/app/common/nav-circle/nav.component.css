@@ -1,0 +1,79 @@
+div.relative{
+    position:relative;
+    height: 0px;
+    width: 310px;
+    margin: 0;
+    /*z-index: 1000;*/
+    /*border: 2px solid black;*/
+}
+
+/*defines the characteristics of bootstraps glyphicons*/
+.glyphicon {
+    font-size: 30px;
+}
+
+nav a.absolute,
+nav button.absolute{
+  background-color: grey;
+  margin: 0;
+  border-radius: 50%;
+  box-shadow: rgba(0,0,0,.1) 1px 3px 3px;
+  border: 2px solid black;
+  opacity: 1;
+  color: #000;  
+  height: 60px;
+  width: 60px; 
+  position: absolute;
+  display: none;
+}
+
+nav a:active{
+    background-color:#FCC;
+}
+
+nav a:hover,
+nav button:hover{
+    background-color:#FCC;
+    border-radius: 50%;
+}
+
+nav a.active{ 
+   color: #0000ff;
+   background-color: #b7b7ce;
+   border-radius: 50%;      
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-item {
+    margin: 12px;
+}
+
+.navbar-brand{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: auto;
+  margin-top: 77px;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+  border: 2px solid black;
+  background-color: grey;
+  text-align: center;
+    background-size: 150px 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKWOXwpbTKUQT0ie9udCSFR3pq8smsTjcS9VkDSo0ndDoNZyKh");*/
+}
+
+.navbar-brand:hover{
+    background-color:#FCC;
+    border-radius: 50%;
+    /*margin: auto;*/
+    margin-top: 77px;
+}   
+
+

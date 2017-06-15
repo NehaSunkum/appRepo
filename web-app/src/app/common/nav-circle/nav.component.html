@@ -1,0 +1,13 @@
+
+<nav>
+  <div id="navcontainter" class="relative flex-container">
+    <a id="maincircle" class="navbar-brand" routerLink="/home" routerLinkActive="active"></a>
+    <a id="hideli" class="absolute flex-container" (click)="hideNav()"><span class="flex-item glyphicon glyphicon-unchecked"></span></a>
+    <a id="hubli" class="absolute flex-container" routerLink="/hub" routerLinkActive="active"><span class="flex-item glyphicon glyphicon-home"></span></a>
+  </div>
+</nav>
+
+
+<!--below is where the content of the links will be shown-->
+<router-outlet></router-outlet>
+

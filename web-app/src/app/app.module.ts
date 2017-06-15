@@ -7,11 +7,13 @@ import { RouterModule } from "@angular/router";
 import { AppComponent } from './app.component';
 import { AppRoutingModule, routingComponents } from "./app-routing.module";
 import { AppConfig } from "./app.config";
+import { NavCircle } from "./common/nav-circle";
 
 @NgModule({
   declarations: [
     AppComponent,
     routingComponents,
+    NavCircle
   ],
   imports: [
     BrowserModule,
