@@ -11,7 +11,7 @@ import { AppConfig } from "./app.config";
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents
+    routingComponents,
   ],
   imports: [
     BrowserModule,
@@ -20,7 +20,7 @@ import { AppConfig } from "./app.config";
     AppRoutingModule
   ],
   providers: [
-    
+
   ],
   bootstrap: [AppComponent]
 })
