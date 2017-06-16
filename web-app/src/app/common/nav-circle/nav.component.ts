@@ -8,16 +8,16 @@ import { Component, OnInit } from "@angular/core";
 })
 
 export class NavCircle implements OnInit {
-    private _RADIUS = 115;
+    private _RADIUS = 100;
     private _SEG = 250;
     private _OFFSET = 120;
-    private _THETAINIT = 90;
+    private _THETAINIT = 180;
 
     private _navHidden = false;
 
     private _hiddenNavItems = [];
     
-    private _navItemIds = ["hideli","hubli"]; //list of id's od elements that will be on the nav circle
+    private _navItemIds = ["hideli","myprofileli","galleryli","inboxli","notificationli"]; //list of id's od elements that will be on the nav circle
     private _navItems = [];
 
 

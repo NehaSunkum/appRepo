@@ -3,6 +3,7 @@ div.relative{
     height: 0px;
     width: 310px;
     margin: 0;
+    margin-left: -65px;
     /*z-index: 1000;*/
     /*border: 2px solid black;*/
 }
@@ -53,12 +54,12 @@ nav a.active{
 }
 
 .navbar-brand{
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
   vertical-align: middle;
   margin: auto;
-  margin-top: 77px;
+  margin-top: 90px;
   box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
   border: 2px solid black;
   background-color: grey;
