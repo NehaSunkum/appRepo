@@ -78,7 +78,7 @@ export class NavCircle implements OnInit {
                 let elem = document.getElementById(tempItem.id);
                 if(i==0){
                     elem.style.top = '5px';
-                    elem.style.right = '240px';
+                    elem.style.right = '180px';
                 }else{
 
                     elem.style.display = 'none';
