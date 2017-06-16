@@ -17,13 +17,13 @@ nav a.absolute,
 nav button.absolute{
   background-color: grey;
   margin: 0;
+  height: 60px;
+  width: 60px; 
   border-radius: 50%;
   box-shadow: rgba(0,0,0,.1) 1px 3px 3px;
   border: 2px solid black;
   opacity: 1;
-  color: #000;  
-  height: 60px;
-  width: 60px; 
+  color: #000; 
   position: absolute;
   display: none;
 }
