@@ -15,15 +15,15 @@ div.relative{
 
 nav a.absolute,
 nav button.absolute{
-  background-color: grey;
+  background-color:black;
   margin: 0;
   height: 60px;
   width: 60px; 
   border-radius: 50%;
-  box-shadow: rgba(0,0,0,.1) 1px 3px 3px;
-  border: 2px solid black;
-  opacity: 1;
-  color: #000; 
+  box-shadow: rgba(0,0,0,.5) 1px 3px 3px;
+  border: 1px solid black;
+  opacity: 0.8;
+  color: #d5d5d5; 
   position: absolute;
   display: none;
 }
@@ -60,9 +60,10 @@ nav a.active{
   vertical-align: middle;
   margin: auto;
   margin-top: 90px;
-  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
-  border: 2px solid black;
-  background-color: grey;
+  box-shadow: rgba(0,0,0,.5) 1px 3px 3px;
+  border: 1px solid black;
+  background-color: black;
+  opacity: 0.8;
   text-align: center;
     background-size: 150px 150px;
     background-position: center center;
