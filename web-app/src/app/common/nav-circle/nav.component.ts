@@ -11,13 +11,13 @@ export class NavCircle implements OnInit {
     private _RADIUS = 100;
     private _SEG = 250;
     private _OFFSET = 120;
-    private _THETAINIT = 180;
+    private _THETAINIT = Math.PI;
 
     private _navHidden = false;
 
     private _hiddenNavItems = [];
     
-    private _navItemIds = ["hideli","myprofileli","galleryli","inboxli","notificationli"]; //list of id's od elements that will be on the nav circle
+    private _navItemIds = ["hideli","hubli","myprofileli","galleryli","inboxli","notificationli"]; //list of id's od elements that will be on the nav circle
     private _navItems = [];
 
 
@@ -47,7 +47,7 @@ export class NavCircle implements OnInit {
 
 
     private initNavItems(theta){
-        let add = theta;
+        let add = (2*Math.PI)/3;
         let navItems = [];
         for(let i=0; i <= this._navItemsCount; i++){
             navItems.push({
@@ -78,7 +78,7 @@ export class NavCircle implements OnInit {
                 let elem = document.getElementById(tempItem.id);
                 if(i==0){
                     elem.style.top = '5px';
-                    elem.style.right = '240px';
+                    elem.style.right = '180px';
                 }else{
 
                     elem.style.display = 'none';
