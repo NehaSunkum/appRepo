@@ -43,14 +43,14 @@ nav a.active{
    background-color: #b7b7ce;
    border-radius: 50%;      
 }
-/*test*/
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
 }
 
 .flex-item {
-    margin: 15px;
+    margin: 12px;
 }
 
 .navbar-brand{
